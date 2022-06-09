@@ -4,9 +4,7 @@
 #include "lua.h"
 #include "lauxlib.h"
 
-#include "bin_dump.h"
-
-#include <stdlib.h>
+#include "bindump.h"
 
 static int
 ldump(lua_State * L) {

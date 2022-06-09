@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-#include "bin_dump.h"
+#include "bindump.h"
 
 void dump( FILE* file, const void* source, int howmuch, const char* title)
 {
